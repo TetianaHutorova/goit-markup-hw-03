@@ -13,6 +13,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 /* Утилиты */
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 img {
   display: block;
 }
@@ -58,10 +62,12 @@ img {
   margin-bottom: 16px;
   color: var(--first-complementary-color);
 }
+header{
+    border-bottom: 1px solid var(--second-complementary-color);
+}
 .header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--second-complementary-color);
 }
 .link:hover,
 .link:focus {
@@ -74,7 +80,7 @@ img {
   margin-top: 0;
   margin-bottom: 48px;
   color: var(--primary-white-color);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1.1;
@@ -84,7 +90,7 @@ img {
   margin-top: 0;
   margin-bottom: 8px;
   color: var(--title-text-color);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
@@ -92,6 +98,7 @@ img {
 .second-topic {
   margin-bottom: 72px;
   text-align: center;
+  font-weight: 700;
 }
 
 .text {
@@ -104,7 +111,7 @@ img {
 .site-nav {
   display: block;
   color: var(--title-text-color);
-  font-weight: 600;
+  font-weight: 500;
   font-size: var(--main-font-size);
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -140,10 +147,6 @@ img {
   margin-bottom: 120px;
 }
 /* Преимущества */
-.advantages {
-  margin-bottom: 120px;
-}
-
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
@@ -157,9 +160,6 @@ img {
   margin-right: 0;
 }
 /* Операции */
-.wrapper {
-  margin-bottom: 120px;
-}
 .operation {
   display: flex;
 }
@@ -173,8 +173,6 @@ img {
 }
 /* Команда */
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background-color: var(--first-complementary-color);
 }
 .team-list {
@@ -203,7 +201,7 @@ img {
   border: 1px solid var(--second-complementary-color);
   text-align: center;
   font-family: inherit;
-  font-weight: 600;
+  font-weight: 500;
   font-size: var(--main-font-size);
   line-height: 1.2;
   align-items: center;
@@ -252,8 +250,6 @@ img {
   width: calc((100% - 48px) / 3);
   margin-right: 24px;
   margin-bottom: 48px;
-  border: 1px solid var(--second-complementary-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .examples .item:nth-child(3n) {
   margin-right: 0;
